@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     default: "Qualitem - Post-Migration Metadata Validation for SharePoint",
     template: "%s | Qualitem"
   },
-  description: "Ensure perfect metadata integrity after SharePoint migrations. Our Metadata Checker & Fixer validates and repairs metadata discrepancies between Office documents and SharePoint Online after your migration is complete.",
+  description: "Ensure perfect metadata integrity after SharePoint migrations. Our Metadata Checker & Fixer validates and repairs metadata discrepancies between Office documents and SharePoint Online.",
   keywords: ["SharePoint metadata", "post-migration validation", "metadata integrity", "SharePoint migration", "document metadata validation", "migration verification", "SharePoint Online"],
   authors: [{ name: "Qualitem Team" }],
   creator: "Qualitem",

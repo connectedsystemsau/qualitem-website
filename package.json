@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
-    "start": "next start",
+    "start": "npx serve@latest out",
+    "preview": "npm run build && npm run start",
     "lint": "eslint",
     "export": "npm run build"
   },

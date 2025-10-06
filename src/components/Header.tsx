@@ -15,7 +15,7 @@ export default function Header() {
 
           {/* Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <Link 
+            {/* <Link 
               href="/metadata-checker" 
               className="text-foreground/80 hover:text-foreground transition-colors font-medium"
             >
@@ -44,7 +44,7 @@ export default function Header() {
               className="text-foreground/80 hover:text-foreground transition-colors font-medium"
             >
               Contact
-            </Link>
+            </Link> */}
           </nav>
 
           {/* CTA Button */}
