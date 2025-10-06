@@ -26,7 +26,6 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://qualitem.github.io",
     title: "Qualitem - Post-Migration Metadata Validation for SharePoint",
     description: "Ensure perfect metadata integrity after SharePoint migrations. Validate and repair metadata discrepancies between Office documents and SharePoint Online.",
     siteName: "Qualitem",
