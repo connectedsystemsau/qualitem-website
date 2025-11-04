@@ -102,28 +102,28 @@ export default function Contact() {
                   <h3 className="text-xl font-semibold mb-6 text-brand">What to Expect</h3>
                   <div className="space-y-4">
                     <div className="flex items-start space-x-3">
-                      <div className="w-6 h-6 bg-brand text-white rounded-full flex items-center justify-center text-sm font-semibold mt-1">1</div>
+                      <div className="w-6 h-6 bg-brand dark:bg-blue-700 text-white rounded-full flex items-center justify-center text-sm font-semibold mt-1">1</div>
                       <div>
                         <h4 className="font-semibold mb-1">Migration Assessment</h4>
                         <p className="text-foreground/70">We&apos;ll discuss your SharePoint migration and specific validation requirements</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <div className="w-6 h-6 bg-brand text-white rounded-full flex items-center justify-center text-sm font-semibold mt-1">2</div>
+                      <div className="w-6 h-6 bg-brand dark:bg-blue-700 text-white rounded-full flex items-center justify-center text-sm font-semibold mt-1">2</div>
                       <div>
                         <h4 className="font-semibold mb-1">Demo & Trial</h4>
                         <p className="text-foreground/70">Receive a personalized demo and trial access to our validation tools</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <div className="w-6 h-6 bg-brand text-white rounded-full flex items-center justify-center text-sm font-semibold mt-1">3</div>
+                      <div className="w-6 h-6 bg-brand dark:bg-blue-700 text-white rounded-full flex items-center justify-center text-sm font-semibold mt-1">3</div>
                       <div>
                         <h4 className="font-semibold mb-1">Validation Support</h4>
                         <p className="text-foreground/70">Get guidance on implementing post-migration validation best practices</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <div className="w-6 h-6 bg-brand text-white rounded-full flex items-center justify-center text-sm font-semibold mt-1">4</div>
+                      <div className="w-6 h-6 bg-brand dark:bg-blue-700 text-white rounded-full flex items-center justify-center text-sm font-semibold mt-1">4</div>
                       <div>
                         <h4 className="font-semibold mb-1">Ongoing Partnership</h4>
                         <p className="text-foreground/70">Access to updates, support, and new validation features</p>
@@ -162,7 +162,7 @@ export default function Contact() {
                   </div>
                 </div>
 
-                <div className="bg-gradient-to-r from-brand via-brand-dark to-brand text-white rounded-xl p-8">
+                <div className="bg-gradient-to-r from-brand via-brand-dark to-brand dark:from-blue-700 dark:via-blue-800 dark:to-blue-700 text-white rounded-xl p-8">
                   <h3 className="text-xl font-semibold mb-4">Enterprise Validation Program</h3>
                   <p className="mb-6 text-white/90">Join our enterprise program and get priority access to validation tools and support.</p>
                   <ul className="space-y-2 mb-6 text-white/90">

@@ -25,13 +25,6 @@ export default function Home()
           <div className="container mx-auto px-6 relative z-10">
             <div className="text-center max-w-4xl mx-auto">
               
-              {/* Problem Statement Badge */}
-              <div className="inline-flex items-center gap-2 bg-error/10 dark:bg-error/20 border border-error/30 dark:border-error/40 text-error dark:text-error/90 px-4 py-2 rounded-full text-sm font-semibold mb-6 animate-fade-in-up">
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-                </svg>
-                Did Your Migration Lose Critical Metadata?
-              </div>
 
               <h1 className="text-4xl md:text-6xl font-bold mb-6 pb-2 bg-gradient-to-r from-pink-600 via-purple-600 to-blue-600 dark:from-pink-500 dark:via-purple-500 dark:to-blue-500 bg-clip-text text-transparent animate-fade-in-up">
                 Verify & Fix SharePoint Migration Metadata

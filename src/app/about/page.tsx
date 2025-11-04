@@ -84,7 +84,7 @@ export default function About() {
             {/* Our Solution */}
             <div className="mb-16">
               <h2 className="text-3xl font-bold mb-8 text-brand">Our Solution</h2>
-              <div className="bg-gradient-to-r from-brand via-orange-600 to-rose-600 text-white rounded-xl p-8">
+              <div className="bg-gradient-to-r from-brand via-orange-600 to-rose-600 dark:from-blue-700 dark:via-blue-800 dark:to-blue-700 text-white rounded-xl p-8">
                 <h3 className="text-2xl font-semibold mb-6">Metadata Checker & Fixer</h3>
                 <p className="text-white/90 mb-6">
                   A comprehensive Windows desktop application that validates SharePoint migration success by 
