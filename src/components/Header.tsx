@@ -1,8 +1,26 @@
+'use client'
+
 import Link from 'next/link'
+import { useEffect, useState } from 'react'
 
 export default function Header() {
+  const [isScrolled, setIsScrolled] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 10)
+    }
+    
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
   return (
-    <header className="border-b border-black/[.08] dark:border-white/[.145] bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50">
+    <header className={`border-b sticky top-0 z-50 transition-all duration-300 ${
+      isScrolled 
+        ? 'border-black/[.08] dark:border-white/[.145] bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 dark:bg-background/95 dark:supports-[backdrop-filter]:bg-background/80' 
+        : 'border-transparent bg-transparent backdrop-blur-none dark:bg-background/95 dark:backdrop-blur dark:supports-[backdrop-filter]:bg-background/60'
+    }`}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}

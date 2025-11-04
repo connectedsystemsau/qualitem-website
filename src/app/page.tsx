@@ -6,21 +6,21 @@ export default function Home()
     <>
       <main className="min-h-screen">
         {/* Hero Section */}
-        <section className="relative py-32 overflow-hidden">
+        <section className="relative pt-48 pb-32 -mt-16 overflow-hidden bg-gradient-to-br from-pink-200 via-purple-200 to-blue-200 dark:bg-none">
           {/* Background gradient */}
-          <div className="absolute inset-0 bg-gradient-to-br from-rose-50/40 via-stone-50/30 to-blue-50/40 dark:from-purple-950/40 dark:via-blue-950/30 dark:to-pink-950/40"></div>
-          <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-pink-100 via-purple-100 to-blue-100 dark:from-purple-950/40 dark:via-blue-950/30 dark:to-pink-950/40"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-transparent via-transparent to-transparent dark:from-background dark:via-transparent dark:to-transparent"></div>
 
           {/* Animated background shapes */}
-          <div className="absolute top-20 left-10 w-72 h-72 bg-gradient-to-r from-brand/15 to-rose-300/20 dark:from-purple-500/25 dark:to-pink-500/20 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-xl opacity-60 dark:opacity-40 animate-blob"></div>
-          <div className="absolute top-20 right-10 w-72 h-72 bg-gradient-to-r from-orange-200/25 to-stone-300/20 dark:from-pink-500/25 dark:to-blue-500/20 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-xl opacity-60 dark:opacity-40 animate-blob animation-delay-2000"></div>
-          <div className="absolute -bottom-8 left-20 w-72 h-72 bg-gradient-to-r from-blue-400/20 to-brand/15 dark:from-blue-500/25 dark:to-purple-500/20 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-xl opacity-60 dark:opacity-40 animate-blob animation-delay-4000"></div>
+          <div className="absolute top-20 left-10 w-72 h-72 bg-gradient-to-r from-pink-400/20 to-purple-400/25 dark:from-purple-500/25 dark:to-pink-500/20 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-xl opacity-70 dark:opacity-40 animate-blob"></div>
+          <div className="absolute top-20 right-10 w-72 h-72 bg-gradient-to-r from-purple-400/25 to-blue-400/20 dark:from-pink-500/25 dark:to-blue-500/20 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-xl opacity-70 dark:opacity-40 animate-blob animation-delay-2000"></div>
+          <div className="absolute -bottom-8 left-20 w-72 h-72 bg-gradient-to-r from-blue-400/25 to-pink-400/20 dark:from-blue-500/25 dark:to-purple-500/20 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-xl opacity-70 dark:opacity-40 animate-blob animation-delay-4000"></div>
           
           {/* Additional floating elements */}
-          <div className="absolute top-40 right-1/4 w-48 h-48 bg-gradient-to-br from-purple-300/20 to-pink-300/15 dark:from-purple-500/20 dark:to-pink-500/15 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-2xl opacity-50 dark:opacity-30 animate-blob animation-delay-2000"></div>
-          <div className="absolute bottom-32 right-20 w-56 h-56 bg-gradient-to-tl from-blue-300/20 to-purple-300/15 dark:from-blue-500/20 dark:to-purple-500/15 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-2xl opacity-50 dark:opacity-30 animate-blob"></div>
-          <div className="absolute top-1/2 left-1/4 w-40 h-40 bg-gradient-to-r from-pink-300/15 to-blue-300/20 dark:from-pink-500/15 dark:to-blue-500/20 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-xl opacity-40 dark:opacity-25 animate-blob animation-delay-4000"></div>
-          <div className="absolute bottom-20 left-1/3 w-64 h-64 bg-gradient-to-br from-rose-300/15 to-orange-300/20 dark:from-pink-500/15 dark:to-purple-500/20 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-3xl opacity-40 dark:opacity-25 animate-blob animation-delay-2000"></div>
+          <div className="absolute top-40 right-1/4 w-48 h-48 bg-gradient-to-br from-purple-300/25 to-pink-300/20 dark:from-purple-500/20 dark:to-pink-500/15 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-2xl opacity-60 dark:opacity-30 animate-blob animation-delay-2000"></div>
+          <div className="absolute bottom-32 right-20 w-56 h-56 bg-gradient-to-tl from-blue-300/25 to-purple-300/20 dark:from-blue-500/20 dark:to-purple-500/15 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-2xl opacity-60 dark:opacity-30 animate-blob"></div>
+          <div className="absolute top-1/2 left-1/4 w-40 h-40 bg-gradient-to-r from-pink-300/20 to-blue-300/25 dark:from-pink-500/15 dark:to-blue-500/20 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-xl opacity-50 dark:opacity-25 animate-blob animation-delay-4000"></div>
+          <div className="absolute bottom-20 left-1/3 w-64 h-64 bg-gradient-to-br from-pink-300/20 to-orange-400/25 dark:from-pink-500/15 dark:to-purple-500/20 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-3xl opacity-50 dark:opacity-25 animate-blob animation-delay-2000"></div>
 
           <div className="container mx-auto px-6 relative z-10">
             <div className="text-center max-w-4xl mx-auto">
@@ -33,11 +33,11 @@ export default function Home()
                 Did Your Migration Lose Critical Metadata?
               </div>
 
-              <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-foreground via-brand to-brand/70 dark:from-pink-500 dark:via-purple-500 dark:to-blue-500 bg-clip-text text-transparent animate-fade-in-up">
+              <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-pink-600 via-purple-600 to-blue-600 dark:from-pink-500 dark:via-purple-500 dark:to-blue-500 bg-clip-text text-transparent animate-fade-in-up">
                 Verify & Fix SharePoint Migration Metadata
               </h1>
 
-              <p className="text-xl md:text-2xl text-foreground/70 mb-4 max-w-3xl mx-auto animate-fade-in-up delay-200">
+              <p className="text-xl md:text-2xl text-foreground/80 mb-4 max-w-3xl mx-auto animate-fade-in-up delay-200">
                 Detect missing or corrupted document properties after migration—then automatically repair them.
               </p>
               
@@ -80,7 +80,7 @@ export default function Home()
         <section className="py-24 bg-gradient-to-b from-background-alt/40 to-background-alt/20">
           <div className="container mx-auto px-6">
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-brand to-accent dark:from-pink-500 dark:via-purple-500 dark:to-blue-500 bg-clip-text text-transparent">Key Features</h2>
+              <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-pink-600 via-purple-600 to-blue-600 dark:from-pink-500 dark:via-purple-500 dark:to-blue-500 bg-clip-text text-transparent">Key Features</h2>
               <p className="text-lg text-foreground-muted max-w-2xl mx-auto">
                 Comprehensive tools for SharePoint migration metadata validation and repair
               </p>
@@ -133,7 +133,7 @@ export default function Home()
         <section className="py-24 bg-gradient-to-b from-background-alt/30 to-background-alt/40">
           <div className="container mx-auto px-6">
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-brand to-accent dark:from-pink-500 dark:via-purple-500 dark:to-blue-500 bg-clip-text text-transparent">Licensing Options</h2>
+              <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-pink-600 via-purple-600 to-blue-600 dark:from-pink-500 dark:via-purple-500 dark:to-blue-500 bg-clip-text text-transparent">Licensing Options</h2>
               <p className="text-lg text-foreground-muted max-w-2xl mx-auto">
                 Choose the option that best fits your needs
               </p>
@@ -224,7 +224,7 @@ export default function Home()
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-foreground to-brand dark:from-pink-500 dark:via-purple-500 dark:to-blue-500 bg-clip-text text-transparent">
+                <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-pink-600 via-purple-600 to-blue-600 dark:from-pink-500 dark:via-purple-500 dark:to-blue-500 bg-clip-text text-transparent">
                   Why Check Your Migration?
                 </h2>
                 <div className="space-y-6">

@@ -16,7 +16,7 @@ export default function About() {
         
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-foreground via-brand to-accent dark:from-pink-500 dark:via-purple-500 dark:to-blue-500 bg-clip-text text-transparent">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-pink-600 via-purple-600 to-blue-600 dark:from-pink-500 dark:via-purple-500 dark:to-blue-500 bg-clip-text text-transparent">
               About Qualitem
             </h1>
             <p className="text-xl md:text-2xl text-foreground-muted mb-8 max-w-3xl mx-auto">
