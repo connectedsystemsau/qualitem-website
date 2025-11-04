@@ -16,24 +16,24 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Qualitem - Post-Migration Metadata Validation for SharePoint",
+    default: "Qualitem - Free SharePoint Migration Scanner",
     template: "%s | Qualitem"
   },
-  description: "Ensure perfect metadata integrity after SharePoint migrations. Our Metadata Checker & Fixer validates and repairs metadata discrepancies between Office documents and SharePoint Online.",
+  description: "Download our free Windows tool to scan your SharePoint migration for metadata issues. Upgrade to automatically fix problems between Office documents and SharePoint Online.",
   keywords: ["SharePoint metadata", "post-migration validation", "metadata integrity", "SharePoint migration", "document metadata validation", "migration verification", "SharePoint Online"],
   authors: [{ name: "Qualitem Team" }],
   creator: "Qualitem",
   openGraph: {
     type: "website",
     locale: "en_US",
-    title: "Qualitem - Post-Migration Metadata Validation for SharePoint",
-    description: "Ensure perfect metadata integrity after SharePoint migrations. Validate and repair metadata discrepancies between Office documents and SharePoint Online.",
+    title: "Qualitem - Free SharePoint Migration Scanner",
+    description: "Download our free Windows tool to scan SharePoint migrations. Find metadata issues and upgrade to fix them automatically.",
     siteName: "Qualitem",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Qualitem - Post-Migration Metadata Validation for SharePoint",
-    description: "Ensure perfect metadata integrity after SharePoint migrations. Validate and repair metadata discrepancies post-migration.",
+    title: "Qualitem - Free SharePoint Migration Scanner",
+    description: "Download our free Windows scanner to check SharePoint migrations for metadata issues.",
   },
 };
 

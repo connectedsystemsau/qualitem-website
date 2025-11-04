@@ -1,30 +1,63 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fefdfb;
+  --background-alt: #f7f5f1;
+  --surface: #fffffe;
+  --foreground: #2d2a24;
+  --foreground-muted: #6b6555;
   --brand: #1e467a;
-  --brand-light: #2563eb;
+  --brand-light: #3b82f6;
   --brand-dark: #1a3d6b;
+  --accent: #c2410c;
+  --accent-light: #ea580c;
+  --accent-dark: #9a3412;
+  --success: #059669;
+  --warning: #d97706;
+  --error: #dc2626;
+  --border: #e7e3d7;
+  --border-light: #f1ede1;
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-background-alt: var(--background-alt);
+  --color-surface: var(--surface);
   --color-foreground: var(--foreground);
+  --color-foreground-muted: var(--foreground-muted);
   --color-brand: var(--brand);
   --color-brand-light: var(--brand-light);
   --color-brand-dark: var(--brand-dark);
+  --color-accent: var(--accent);
+  --color-accent-light: var(--accent-light);
+  --color-accent-dark: var(--accent-dark);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-error: var(--error);
+  --color-border: var(--border);
+  --color-border-light: var(--border-light);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0f172a;
+    --background-alt: #1e293b;
+    --surface: #334155;
+    --foreground: #f8fafc;
+    --foreground-muted: #94a3b8;
     --brand: #3b82f6;
     --brand-light: #60a5fa;
     --brand-dark: #2563eb;
+    --accent: #fbbf24;
+    --accent-light: #fcd34d;
+    --accent-dark: #f59e0b;
+    --success: #34d399;
+    --warning: #fbbf24;
+    --error: #f87171;
+    --border: #475569;
+    --border-light: #334155;
   }
 }
 
@@ -55,12 +88,35 @@ body {
   }
 }
 
-.animate-fade-in {
-  animation: fade-in 0.6s ease-out;
+@keyframes blob {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+.animate-blob {
+  animation: blob 7s infinite;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
 }
 
 .animate-fade-in-up {
-  animation: fade-in-up 0.8s ease-out;
+  animation: fade-in-up 0.6s ease-out;
 }
 
 .delay-200 {
@@ -69,16 +125,4 @@ body {
 
 .delay-300 {
   animation-delay: 0.3s;
-}
-
-.delay-500 {
-  animation-delay: 0.5s;
-}
-
-.delay-700 {
-  animation-delay: 0.7s;
-}
-
-.delay-1000 {
-  animation-delay: 1s;
 }

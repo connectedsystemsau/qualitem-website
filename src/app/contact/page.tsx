@@ -16,10 +16,10 @@ export default function Contact() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-foreground via-brand to-brand/70 bg-clip-text text-transparent">
-              Contact Qualitem
+              Get In Touch
             </h1>
             <p className="text-xl md:text-2xl text-foreground/70 mb-8 max-w-3xl mx-auto">
-              Ready to validate your SharePoint migration? Let&apos;s discuss how our Metadata Checker & Fixer can help ensure your migration was successful.
+              Questions about checking your SharePoint migration? We&apos;re here to help make it simple.
             </p>
           </div>
         </div>
