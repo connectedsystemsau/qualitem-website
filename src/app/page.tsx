@@ -33,7 +33,7 @@ export default function Home()
                 Did Your Migration Lose Critical Metadata?
               </div>
 
-              <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-pink-600 via-purple-600 to-blue-600 dark:from-pink-500 dark:via-purple-500 dark:to-blue-500 bg-clip-text text-transparent animate-fade-in-up">
+              <h1 className="text-4xl md:text-6xl font-bold mb-6 pb-2 bg-gradient-to-r from-pink-600 via-purple-600 to-blue-600 dark:from-pink-500 dark:via-purple-500 dark:to-blue-500 bg-clip-text text-transparent animate-fade-in-up">
                 Verify & Fix SharePoint Migration Metadata
               </h1>
 
